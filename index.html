@@ -317,7 +317,7 @@
   .feature-desc { font-size: 0.75rem; color: rgba(245,239,224,0.5); margin-top: 3px; line-height: 1.4; }
 
   /* ─── MENU DECK ─── */
-  .menu-section { background: #162216; position: relative; overflow: hidden; }
+  .menu-section { background: #162216; position: relative; overflow: visible; padding: 120px 0; }
   .menu-section::before {
     content: 'MENU';
     position: absolute;
@@ -346,9 +346,10 @@
 
   /* Card Deck */
   .card-deck-wrapper {
-    position: relative; height: 480px;
-    display: flex; align-items: center; justify-content: center;
-  }
+  position: relative; height: 520px;
+  display: flex; align-items: center; justify-content: center;
+  overflow: visible;
+}
   .card-deck {
     position: relative;
     width: 320px; height: 420px;
@@ -387,7 +388,7 @@
   .menu-card-desc { font-size: 0.75rem; color: rgba(245,239,224,0.5); margin-top: 4px; line-height: 1.4; }
 
   .menu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
-  .menu-list { display: flex; flex-direction: column; gap: 0; }
+  .menu-list { display: flex; flex-direction: column; gap: 0; margin-bottom: 50px; }
   .menu-item {
     display: flex; justify-content: space-between; align-items: flex-start;
     padding: 18px 0;
@@ -416,7 +417,7 @@
   }
 
   /* ─── GALLERY ─── */
-  .gallery-section { background: var(--forest); }
+ .gallery-section { background: var(--forest); padding: 120px 0; }
   .gallery-deck-area { margin-top: 60px; }
   .gallery-categories { display: flex; gap: 12px; margin-bottom: 48px; flex-wrap: wrap; }
   .gallery-cat-btn {
@@ -431,7 +432,7 @@
     background: var(--sage); color: var(--cream);
     border-color: var(--sage);
   }
-  .gallery-stack-container { position: relative; height: 520px; }
+  .gallery-stack-container { position: relative; height: 620px; margin-bottom: 80px; }
   .photo-stack {
     position: absolute;
     display: flex; align-items: center; justify-content: center;
