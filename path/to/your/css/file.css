@@ -1,0 +1,12 @@
+.gallery-stack {
+    min-height: 300px; /* Example height, adjust as needed */
+}
+
+.menu-section {
+    padding-bottom: 20px; /* Add bottom padding */
+}
+
+.card-deck {
+    max-height: 500px; /* Example height, adjust as needed */
+    overflow: auto; /* Add overflow handling */
+}
